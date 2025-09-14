@@ -5,6 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    margin-bottom: 100px;
 }
 .order-main-grids{
     display: grid;
@@ -42,6 +43,27 @@
     font-family: arial;
     background-color: rgb(235, 235, 235);
 }
+@media(max-width: 575px){
+    .order-grid-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .order-left-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .all{
+        
+        display: grid;
+    grid-template-columns: auto 1fr;
+    margin-right: 0;
+    }
+    .order-right-header , .order-place{
+        display: grid;
+    grid-template-columns: auto 1fr;
+    }
+
+}
 .order-left-header{
     display: flex;
     column-gap: 50px;
@@ -55,7 +77,7 @@
     display: grid;
     grid-template-columns: 110px 1fr 230px;
    column-gap: 35px;
-    column-gap: 35px;
+    
     row-gap: 60px;
 }
 .two-products{
@@ -72,6 +94,7 @@ padding-left: 30px;
 @media(max-width:800px){
     .order-description-grid{
         grid-template-columns: 110px 1fr;
+        row-gap: 10px;
     }
     .order-right{
         grid-column: 2;
@@ -107,9 +130,15 @@ padding-left: 30px;
 }
 .track{
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 3px;
     border: 1px solid rgb(225, 221, 221);
+}
+.track{
+    text-decoration: none;
+    color: black;
+    border: none;
+    display: inline-block;
 }
 

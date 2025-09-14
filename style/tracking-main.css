@@ -1,0 +1,63 @@
+.tracking-main-page{
+    max-width: 850px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: arial;
+    margin-bottom: 100px;
+}
+.tracking-link{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.tracking-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.tracking-title{
+    margin-bottom: 5px;
+}
+.tracking-image-div{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.tracking-image{
+    width: 100%;
+}
+.progress-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.ship{
+    color: rgb(6, 141, 107);
+}
+.bar-section{
+    height: 25px;
+  width: 100%;
+
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 50px;
+  
+  overflow: hidden;
+}
+.progress-bar{
+    height: 100%;
+    background-color: green;
+    width: 50%;
+    border-radius: 50px;
+}
+@media(max-width:600px){
+    .progress-container{
+        font-size: 15px;
+    }
+}
