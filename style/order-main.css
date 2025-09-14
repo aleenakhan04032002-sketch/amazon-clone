@@ -1,0 +1,115 @@
+.order-main-page{
+    margin-top: 100px;
+   
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.order-main-grids{
+    display: grid;
+    grid-template-columns: 1fr;
+   row-gap: 50px;
+    
+}
+.order-card{
+ border: 1px solid rgb(225, 221, 221);
+ border-radius: 5px;
+ font-family: arial;
+}
+.left-grid-description{
+    max-width: 110px;
+    max-height: 110px;
+}
+.order-image{
+    width: 100%;
+}
+.order-title{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+}
+.order-grid-header{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 20px;
+    border: 1px solid rgb(225, 221, 221);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: arial;
+    background-color: rgb(235, 235, 235);
+}
+.order-left-header{
+    display: flex;
+    column-gap: 50px;
+
+}
+.place ,.total , .id{
+    font-weight: bold;
+}
+.order-description-grid{
+    
+    display: grid;
+    grid-template-columns: 110px 1fr 230px;
+   column-gap: 35px;
+    column-gap: 35px;
+    row-gap: 60px;
+}
+.two-products{
+padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 60px;
+    
+   
+}
+@media(max-width:800px){
+    .order-description-grid{
+        grid-template-columns: 110px 1fr;
+    }
+    .order-right{
+        grid-column: 2;
+        width: 150px;
+        
+    }
+
+}
+.order-name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.order-quantity{
+    margin-bottom: 5px;
+}
+.buy-button{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 217, 0, 0.856);
+    cursor: pointer;
+}
+.buy-button:hover{
+    background-color:rgba(224, 193, 20, 0.856) ;
+}
+.order-button-img{
+    width: 30px;
+    margin-right: 10px;
+}
+.track{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(225, 221, 221);
+}
+

@@ -1,0 +1,138 @@
+.checkout-page{
+    max-width: 1100px;
+    margin-top: 150px;
+
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+.product-description-image{
+ max-width: 110px;
+max-height: 110px;
+}
+.product-image{
+width: 100%;
+}
+.checkout-grid{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    align-items: start;
+    column-gap: 12px;
+    
+}
+@media(max-width:1000px){
+.checkout-page{max-width: 500px;}
+.checkout-grid{grid-template-columns: 1fr;}
+.order-summary{
+    grid-row: 1;
+    margin-bottom: 12px;
+}
+}
+.product-description-cards ,
+{
+   
+  
+    
+}
+.checkout-title{
+    margin-bottom: 20px;
+    font-family: arial;
+    font-size: 25px;
+    margin-left: 0px;
+    
+}
+.three-sections {
+    display: grid;
+    grid-template-columns: 110px 1fr 1fr;
+    column-gap: 30px;
+    
+
+}
+@media(max-width:1000px){
+.three-sections{
+    grid-template-columns:110px 1fr ;
+    row-gap: 30px;
+}
+.third-section{
+    grid-column: 1 / span 2;
+}
+}
+.description-card , .order-summary{
+border: 1px solid rgb(212, 211, 211);
+padding: 20px;
+font-family: arial;
+}
+.description-card{
+    margin-bottom: 12px;
+}
+.payment-summary-row , .total{
+    display: grid;
+    grid-template-columns: 1fr auto;
+     margin-bottom: 10px;
+}
+.order-summary-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.total{
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    cursor: pointer;
+}
+button:hover{
+     background-color: rgb(212, 212, 17);
+}
+.delivery{
+    margin-bottom: 10px;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.description{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.payment{
+    color: brown;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.update{
+    color: rgb(95, 95, 245);
+    cursor: pointer;
+}
+.update:hover{
+    color: brown;
+}
+.choose{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.whole-choose{
+    display: flex;
+    margin-bottom: 10px;
+}
+.radio-button{
+    width: 20px;
+}
+.date{
+    color: green;
+    font-weight: bold;
+}
+.shipping-cost{
+    color: gray;
+    font-size: 14px;
+}
